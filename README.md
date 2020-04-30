@@ -48,7 +48,7 @@ Por último, se inicia el servidor (en modo dev) con el comando:
 yarn dev
 ```
 
-Para iniciar el servidor en modo production, se deberia editar la variable de entorno `NODE_ENV=production` y correr el comando:
+Para iniciar el servidor en modo production, se deberia editar la variable de entorno `NODE_ENV=production` en el archivo `.env` y correr el comando:
 
 ```bash
 yarn start
@@ -64,7 +64,7 @@ Luego se deben levantar los servicios de **mongodb** y **redis** utilizando Dock
 docker-compose -f docker-compose.test.yml up --build
 ```
 
-Por último, se corren los test con el comando:
+Por último, en otra pestaña, se corren los test con el comando:
 
 ```bash
 yarn test
