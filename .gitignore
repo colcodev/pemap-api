@@ -13,8 +13,6 @@
 .DS_Store
 .vscode
 .env
-.env.test
-.env.example
 
 npm-debug.log*
 yarn-debug.log*
