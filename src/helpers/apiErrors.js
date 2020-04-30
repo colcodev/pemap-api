@@ -23,7 +23,7 @@ export const handleOtherErrors = (err, req, res, next) => {
         errMessage = 'Datos de ingreso inválidos. Inténtalo nuevamente.';
       } else if (err.response.data.code === 'INVALID_TOKEN') {
         errStatus = 401;
-        errMessage = 'Ocurrió un error. Inténtalo nuevamente más tarde.';
+        errMessage = 'Ocurrió un error. Intenta refrescando la pantalla.';
       }
     }
   }
