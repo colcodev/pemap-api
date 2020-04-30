@@ -1,6 +1,6 @@
 # pemap-api
 
-API REST hecha en NodeJS para ser consumida por la aplicación web `pemap-webapp`.
+API REST hecha en NodeJS para ser consumida por la aplicación web [pemap-webapp](/colcodev/pemap-webapp).
 
 ## Requerimientos
 
